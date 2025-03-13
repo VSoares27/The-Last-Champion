@@ -1,14 +1,18 @@
+<script lang="ts">
+    let titlegame: string = "The Last Champion"
+
+</script>
+
 <div class="background">
 
-    <h1>THE LAST CHAMPION</h1>
+    <h1>{titlegame}</h1>
 
     <br />
-    <a class="menu" href="/jogar">Jogar</a>
+    <a class="menu-play" href="/jogar">Play</a>
     <br />
-    <a class="menu" href="/ajuda">Ajuda</a>
+    <a class="menu" href="/howtoplay">How to Play?</a>
     <br />
-    <a class="menu" href="/sobre">Sobre</a>
+    <a class="menu" href="/about">About</a>
     
 </div>
 
- 

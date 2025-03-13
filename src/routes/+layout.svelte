@@ -1,5 +1,5 @@
 <script>
-    import "../styles/principal.css"
+    import "../styles/mainmenu.css"
 </script>
   
 <slot />

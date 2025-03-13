@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'PixelFont';
+    src: url('fonts/VCROSDMONO.ttf') format('truetype');
+}
+
+body,html {
+    background-image: url('/imagens/background-main.gif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 7vh;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-family: 'PixelFont';
+    margin-bottom: 3vh;
+}
+
+.menu {
+    display: block;
+    font-size: 2.5vh;
+    margin: 1vh auto;
+    border-style: solid;
+    border-width: 0.5vh;
+    width: 20vw;
+    background-color: lightgrey;
+    border-color: black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 1vh 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1vh;
+}
+
+.menu-play{
+	display: block;
+    font-size: 5vh;
+    margin: 1vh auto;
+    border-style: solid;
+    border-width: 0.5vh;
+    width: 20vw;
+    background-color: lightgrey;
+    border-color: black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 3vh 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1vh;
+	font-weight: bold;
+}

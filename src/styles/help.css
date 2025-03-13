@@ -1,0 +1,48 @@
+.ajuda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyarrow{
+    place-items: center;
+    display: flex;
+    max-width: 25%;
+    overflow: hidden;
+    margin: -20px;
+}
+
+.ajuda{
+    font-family: 'PixelFont';
+    font-size: 40px;
+    text-align: center;
+    color:yellow;
+  
+}
+
+.keyarrowajuda, .keyxajuda{
+    text-align: center;
+    font-size: 25px;
+    margin: 0% 5%; /* Diminuir a margem superior para aproximar o parágrafo das setinhas */
+    color: yellow; /* Ajustar a cor conforme necessário */
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.menua{
+    display: block;
+    font-size: 2.5vh;
+    margin: 1vh auto;
+    border-style: solid;
+    border-width: 0.5vh;
+    width: 20vw;
+    background-color: lightgrey;
+    border-color: black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 1vh 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1vh;
+}

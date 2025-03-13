@@ -1,0 +1,156 @@
+body, html {
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centraliza todo o conteúdo */
+}
+
+.titulo{
+    font-size: 25px;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-family: 'PixelFont';
+    margin-bottom: 5%;
+}
+
+
+table {
+    margin: -20px auto;
+    border-spacing: 10px; /* Espaço entre os bloquinhos */
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    position: relative; /* Para permitir z-index */
+}
+
+.celula {
+    background-image: url('/imagens/piso.png'); /* Caminho ajustado */
+    background-size: 240% 230%; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    border: none;
+    z-index: 1;
+}
+
+.personagem {
+
+    background-image: url('/imagens/personagem.png');
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; 
+    z-index: 2;
+    position: relative; /* Garante que o personagem é posicionado sobre a plataforma */
+}
+
+.personagemb {
+
+    background-image: url('/imagens/personagem_b.png');
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: relative;
+}
+
+.objetivo {
+    background-color: yellow;
+    z-index: 2;
+    position: relative;
+}
+
+.ncelula {
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: none;
+}
+
+.menuj {
+    display: block;
+    font-size: 2.5vh;
+    margin: 1vh auto;
+    border-style: solid;
+    border-width: 0.5vh;
+    width: 20vw;
+    background-color: lightgrey;
+    border-color: black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 1vh 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1vh;
+}
+
+button{
+    display: block;
+    font-size: 2.5vh;
+    margin: 15px auto;
+    border-style: solid;
+    border-width: 0.5vh;
+    width: 15vw;
+    background-color: lightgrey;
+    border-color: black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 1vh 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1vh;
+}
+
+.quiz-box {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    top: 30%; 
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .quiz-box ul {
+    list-style: circle;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    transform: scale(1); /* Aumenta o tamanho */
+    margin-right: 10px; /* Espaço entre a bolinha e o texto */
+    cursor: pointer;
+}
+  
+
+  .quiz-box li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+  }
+
+  .quiz-box button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .quiz-box button:hover {
+    background-color: #0056b3;
+  }
