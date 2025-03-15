@@ -310,7 +310,7 @@
 
     <br/>
 
-    <a class="menuj" href="/">Voltar ao Menu</a>
+    <a class="menuj" href="/">Back to Main Menu</a>
 
 </div>
 
