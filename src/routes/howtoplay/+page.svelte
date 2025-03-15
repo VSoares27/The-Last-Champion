@@ -20,6 +20,6 @@
 
 
 
-    <a class="menua" href="/">Voltar ao Menu</a> 
+    <a class="menua" href="/">Back to Main Menu</a> 
 
 </div>
