@@ -22,6 +22,6 @@
         Instructor: Prof. Allan Lima
     </p>
     
-    <a class="menu" href="/">Voltar ao Menu</a>
+    <a class="menu" href="/">Back to Main Menu</a>
 
 </div>
